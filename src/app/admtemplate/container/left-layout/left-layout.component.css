@@ -1,0 +1,84 @@
+mat-sidenav-container, mat-sidenav-content, mat-sidenav {
+    height: 100%;
+    
+  }
+  
+  mat-sidenav {
+    width: 280px;
+    
+  }
+  
+  main {
+    padding: 10px;
+  }
+  
+  mat-sidenav{
+    background-color: #163459;
+  }
+  
+  mat-sidenav-content{
+    background-color: #F9FBF8;
+  }
+  
+  .gcard{
+    margin: 0%;
+    padding: 0%;
+    height: 160px;
+    width: 280px;
+    background-image: url('../../../../assets/img/gcard-logo.png');
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .gcard code {
+    vertical-align: middle;
+    text-align: center;
+  }
+  
+  .app-name{
+    width: 280px;
+    background: black;
+    color: white;
+    text-align: center;
+    
+  }
+  
+  .list-menu a {
+    color: white;
+  }
+  
+  mat-expansion-panel{
+    background-color: #163459;
+    color: white;
+    box-shadow: none;
+    
+  }
+  
+  .mat-expansion-panel:not([class*=mat-elevation-z]) {
+    box-shadow: none;
+  }
+  
+  mat-expansion-panel mat-panel-title{
+    color: white;
+  }
+  
+  mat-nav-list{
+    padding-left: 7px;
+  }
+  
+  .mat-list-base .mat-list-item {
+    font-size: 0.9em;
+  }
+  
+  mat-panel-title{
+    font-size: 0.9em;
+  }
+  
+  .material-icons{
+    margin-right: 5px;
+    margin-top: -3px;
+  }

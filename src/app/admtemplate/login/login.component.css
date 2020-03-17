@@ -1,0 +1,28 @@
+.main-div{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #44515E;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+.my-card{
+    padding: 20px;
+    width: 250px;
+}
+
+.my-title{
+    text-align: center;
+}
+
+.my-footer{
+    text-align: center;
+    font-size: small;
+}

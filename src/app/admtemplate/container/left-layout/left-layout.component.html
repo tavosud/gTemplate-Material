@@ -1,0 +1,56 @@
+<mat-sidenav-container>
+    <mat-sidenav #sidenav role="navigation">
+        <div class="gcard">
+          <div class="gcard-user">
+              <small>Gustavo Cuyutupa</small><br/><code>Administrador</code>
+          </div>
+          
+        </div>
+        <div class="app-name">
+          <code>TAVODEV - TEMPLATE</code>
+        </div>
+        <div class="list-menu">
+            <mat-nav-list>
+                <a mat-list-item routerLink="dashboard">
+                    <i class="material-icons">
+                        bookmark_border
+                        </i> Dashboard 
+                </a>
+            </mat-nav-list>
+
+            <mat-expansion-panel>
+
+                <mat-expansion-panel-header>
+                  <mat-panel-title>
+                      <i class="material-icons">list_alt</i> Components
+                  </mat-panel-title>
+                  
+                </mat-expansion-panel-header>
+              
+                <mat-nav-list >
+                    <a mat-list-item routerLink="forms">
+                        <i class="material-icons">work_outline</i> Forms
+                    </a>
+                </mat-nav-list>
+
+                <mat-nav-list >
+                  <a mat-list-item routerLink="../login">
+                      <i class="material-icons">account_box</i> Login
+                  </a>
+                </mat-nav-list>
+              
+            </mat-expansion-panel>
+              
+
+        </div>        
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <app-head-layout (sidenavToggle)="sidenav.toggle()"></app-head-layout>
+      <main>
+        <router-outlet></router-outlet>
+      </main>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+
+  
+
